@@ -1,0 +1,14 @@
+{
+  "name": "babel-bug-introduced-by-10871",
+  "version": "1.0.0",
+  "author": "Philippe Serhal <philippe@goodeggs.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@babel/core": "7.7.4",
+    "@babel/node": "7.7.4"
+  },
+  "scripts": {
+    "start": "babel-node --require foo.js bar.js"
+  }
+}
